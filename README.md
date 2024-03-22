@@ -1,5 +1,5 @@
 # Redis AWS Bedrock Workshop
-A notebook to showcase Redis's Vector Semantic Search, Vector Databse and AWS Bedrock base modules.
+This hands-on workshop, aims at developers and solution builders, introduces how to leverage Redis, Redis's Vector Semantic Search, Vector Database and AWS Bedrock's base modules.
 
 <div align="center">
     <div style="display: inline-block; text-align: center; margin-bottom: 10px;">
@@ -16,6 +16,33 @@ A notebook to showcase Redis's Vector Semantic Search, Vector Databse and AWS Be
 ![GitHub last commit](https://img.shields.io/github/last-commit/redis-developer/financial-vss)
 
 </div>
+
+Within this lab, you'll explore some of the most common usage patterns we are seeing with our customers for Generative AI. We will show techniques for generating text and images, creating value for organizations by improving productivity. This is achieved by leveraging architecting Retrieval Augumented Generation framework to help in composing emails, summarizing text, answering questions, building chatbots, and creating images. While the focus of this workshop is for you to gain hands-on experience implementing these patterns via Redis and AWS Bedrock APIs. You will also have an option of exploring integration with open-source packages like [LangChain](https://python.langchain.com/docs/integrations/vectorstores/redis).
+
+Labs include:
+- **01 - Text Generation** \[Estimated time to complete - 45 mins\]
+    - Text generation with Bedrock
+    - Text summarization with Titan and Claude
+    - QnA with Titan
+    - Entity extraction
+- **02 - Knowledge bases and RAG** \[Estimated time to complete - 45 mins\]
+    - Managed RAG retrieve and generate example
+    - Langchain RAG retireve and generate example
+- **03 - Model customization** \[Estimated time to complete - 30 mins\]
+    - Coming soon
+- **04 - Image and Multimodal** \[Estimated time to complete - 30 mins\]
+    - Bedrock Titan image generator
+    - Bedrock Stable Diffusion XL
+    - Bedrock Titan Multimodal embeddings
+- **05 - Agents** \[Estimated time to complete - 30 mins\]
+    - Customer service agent
+    - Insurance claims agent
+- **06 - Open source examples (optional)** \[Estimated time to complete - 30 mins\]
+    - Langchain Text Generation examples
+    - Langchain KB RAG examples
+    - Langchain Chatbot examples
+    - NVIDIA NeMo Guardrails examples
+    - NodeJS Bedrock examples
 
 *A detailed set of Jupyter notebooks to teach semantic search and RAG patterns over public financial 10k documents with different Redis clients and integrations including: [redis-py](https://redis-py.readthedocs.io/en/stable/index.html), [redisvl](https://redisvl.com), and [langchain](https://python.langchain.com/docs/integrations/vectorstores/redis).*
 

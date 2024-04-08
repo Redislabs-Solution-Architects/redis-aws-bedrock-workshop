@@ -33,8 +33,7 @@ Select your desired notebook tutorial from below:
 | #   | Notebook                                                                                                                                              | Description                                                                         | Documentation                                                                                          |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
 | 1   | [**redis-py-01**](/redis-py-01.ipynb)      | Grasp VSS basics with the standard Redis Python client.                             | [View Docs](https://redis-py.readthedocs.io/en/stable/examples/search_vector_similarity_examples.html) |
-| 2   | [**redisvl-02**](/redisvl-02.ipynb)        | Dive deeper into RAG patterns from scratch using an AI-native Redis client library. | [View Docs](https://redisvl.com)                                                                       |
-| 3   | [**langchain-03**](/langchain-03.ipynb)    | Wrap up with an integrated approach via LangChain.                                  | [View Docs](https://python.langchain.com/docs/integrations/providers/redis)                            |
+| 2   | [**Redis and LangChain**](/langchain-02.ipynb)    | A RAG pattern using Redis with orchestration framework LangChain.                                  | [View Docs](https://python.langchain.com/docs/integrations/providers/redis)                            |
 
 ## 🛠️ Understanding the Client Ecosystem
 
@@ -42,7 +41,7 @@ Wondering why there are multiple clients? Each serves a unique purpose, providin
 
 - **Use Cases**: Are you focusing on pure vector search, RAG, or other tasks like LLM semantic caching?
 - **Redis Experience**: How comfortable is your team with Redis clients and commands?
-- **Integration Points**: What are your touchpoints with LLMs and Embedding Providers?
+- **Integration Points**: What are your touch points with LLMs and Embedding Providers?
 - **Performance Demands**: How intensive are your performance requirements?
 - **Configurability**: Do you prefer ease of use or fine-grained control?
 
@@ -50,6 +49,6 @@ Each notebook explores these considerations, guiding you through making an infor
 
 ## ⚠️ Cautionary Advice
 
-- **Not for Local Use**: This Colab-centric project isn't configured for local environments. Running it outside Colab requires a different setup.
-- **Temporary Workspace**: Colab doesn't save your work indefinitely. Download your notebooks or save them to Google Drive to avoid losing progress.
-- **Idle Disconnections**: Extended inactivity in Colab can disconnect the runtime, potentially resulting in work loss. Regular saving is your friend!
+- **Not for Local Use**: This project isn't configured for local environments. Running it outside of Jupyter Notebook or Google Colab requires a different setup.
+- **Temporary Workspace**: This doesn't save your work indefinitely. Download your notebooks to avoid losing progress.
+- **Idle Disconnections**: Extended inactivity in Jupyter Notebook can disconnect the runtime, potentially resulting in work loss. Regular saving is your friend!

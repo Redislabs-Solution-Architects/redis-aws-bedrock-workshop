@@ -32,7 +32,7 @@ Select your desired notebook tutorial from below:
 
 | #   | Notebook                                                                                                                                              | Description                                                                         | Documentation                                                                                          |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| 1   | [**redis-py-01**](/redis-py-01.ipynb)      | Grasp VSS basics with the standard Redis Python client.                             | [View Docs](https://redis-py.readthedocs.io/en/stable/examples/search_vector_similarity_examples.html) |
+| 1   | [**Redis Vector Store**](/redis-py-01.ipynb)      | Grasp VSS basics with the standard Redis Python client.                             | [View Docs](https://redis-py.readthedocs.io/en/stable/examples/search_vector_similarity_examples.html) |
 | 2   | [**Redis and LangChain**](/langchain-02.ipynb)    | A RAG pattern using Redis with orchestration framework LangChain.                                  | [View Docs](https://python.langchain.com/docs/integrations/providers/redis)                            |
 
 ## 🛠️ Understanding the Client Ecosystem

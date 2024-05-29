@@ -1,7 +1,7 @@
 openai
 tiktoken
 langchain
-langchain_community
+langchain-community
 unstructured[pdf]
 sentence-transformers
 pandas

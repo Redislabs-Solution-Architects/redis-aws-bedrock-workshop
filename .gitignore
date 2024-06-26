@@ -2,3 +2,4 @@ venv/
 resources/
 redis-aws-bedrock-workshop.code-workspace
 redisvl-02.ipynb
+.DS_Store
